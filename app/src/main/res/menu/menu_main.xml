@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_shuffle"
+        android:icon="@drawable/rand"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:title="Shuffle"/>
+
+    <item
+        android:id="@+id/action_end"
+        android:icon="@drawable/close"
+        android:orderInCategory="3"
+        android:showAsAction="always"
+        android:title="End"/>
+    <item
+        android:id="@+id/search"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="Search"
+        />
+</menu>
